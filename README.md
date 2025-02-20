@@ -7,8 +7,8 @@
   - You can automate this by placing `script_execute <scriptname>` into either `listenserver.cfg` (for listen servers created with 'map' command or the Create Server button) or `server.cfg` (for dedicated servers) so that the script is automatically executed when the server runs
 - Since VScript is natively supported by TF2, these scripts are fully functional without any outside modding support from projects such as SourceMod
 
-## Scripts:
-### instantrespawn.nut
+### Scripts:
+#### instantrespawn.nut
 - Running this script will enable native instant respawning of all player entities (including bots), regardless of the map
 - True instant respawn, bypassing the killcam/deathcam/freezecam screen entirely
 - Bypasses respawn timer convars 'mp_respawnwavetime' and 'mp_disable_respawn_times', so there is no need to set these
