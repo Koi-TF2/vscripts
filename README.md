@@ -5,10 +5,13 @@
 - Place the .nut file(s) into the `\tf\scripts\vscripts\` directory. If the vscripts folder does not exist, create it first
 - In console, use the command `script_execute <scriptname>` to execute the desired vscript from inside the server when it is running
   - You can automate this by placing `script_execute <scriptname>` into either `listenserver.cfg` (for listen servers created with 'map' command or the Create Server button) or `server.cfg` (for dedicated servers) so that the script is automatically executed when the server runs
+- Since VScript is natively supported by TF2, these scripts are fully functional without any outside modding support from projects such as SourceMod
 
 ## Scripts:
 ### instantrespawn.nut
-- Running this VScript will enable instant respawning of all player entities (including bots) natively, regardless of map or other configurations
+- Running this script will enable native instant respawning of all player entities (including bots), regardless of the map
+- True instant respawn, bypassing the killcam/deathcam/freezecam screen entirely
+- Bypasses respawn timer convars 'mp_respawnwavetime' and 'mp_disable_respawn_times', so there is no need to set these
 - Configurations within script:
   - `const RESPAWN_DELAY = 0.1; //set the delay time (in seconds) for respawn`
   - Can be set as low as 0.0 for truly instant respawn, but I suggest leaving at 0.1 (set by default)
