@@ -3,7 +3,7 @@
 ### How to use
 - Requires server administrative access to run. Will work on listen servers you create with the 'map' command or the Create Server button, as well as dedicated servers you operate
 - Place the .nut file(s) into the `\tf\scripts\vscripts\` directory. If the vscripts folder does not exist, create it first
-- In console, use the command `script_execute <scriptname>` to execute the desired vscript
+- In console, use the command `script_execute <scriptname>` to execute the desired vscript from inside the server when it is running
 
 ## Scripts:
 ### instantrespawn.nut
