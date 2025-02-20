@@ -15,7 +15,7 @@ InstantRespawnTable <- {
 	function OnGameEvent_player_death(params)
 	{
 		local player = GetPlayerFromUserID(params.userid);
-		EntFireByHandle(player, "RunScriptCode", "self.ForceRespawn()", RESPAWN_DELAY, null null);
+		EntFireByHandle(player, "RunScriptCode", "self.ForceRespawn()", RESPAWN_DELAY, null, null);
 	}
 };
 
