@@ -4,6 +4,7 @@
 - Requires server administrative console access to run. Will work on listen servers you create with the 'map' command or the Create Server button, as well as dedicated servers you operate
 - Place the .nut file(s) into the `\tf\scripts\vscripts\` directory. If the vscripts folder does not exist, create it first
 - In console, use the command `script_execute <scriptname>` to execute the desired vscript from inside the server when it is running
+  - You can automate this by placing `script_execute <scriptname>` into either `listenserver.cfg` (for listen servers created with 'map' command or the Create Server button) or `server.cfg` (for dedicated servers) so that the script is automatically executed when the server runs
 
 ## Scripts:
 ### instantrespawn.nut
