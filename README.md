@@ -22,5 +22,8 @@ ___
 
 #### Helpful References: 
 - https://developer.valvesoftware.com/wiki/Team_Fortress_2/Scripting/Script_Functions
+- https://developer.valvesoftware.com/wiki/Team_Fortress_2/Scripting/Game_Events
 - https://developer.valvesoftware.com/wiki/Team_Fortress_2/Scripting/VScript_Examples
 - https://developer.valvesoftware.com/wiki/VScript_Fundamentals
+- https://developer.valvesoftware.com/wiki/Squirrel
+- https://squirrel-lang.org/doc/squirrel3.html
